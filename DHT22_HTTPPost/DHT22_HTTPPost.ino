@@ -34,6 +34,10 @@ int readingSeconds = 15;//Number of seconds that readings will be taken before r
 dht DHT;
 
 void setup(){
+  /*
+   * Code for connecting to wifi left out
+   * 
+   */
   Serial.begin(115200);
   Serial.print("Results posted every ");
   Serial.print(readingSeconds);
